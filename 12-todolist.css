@@ -1,0 +1,40 @@
+body{
+  font-family: arial;
+}
+.todo-grid,.todo-input
+{
+  display: grid;
+  grid-template-columns:300px 300px 200px;
+  column-gap: 10px;
+  row-gap: 14px;
+ align-items: center;
+}
+.todo-input
+{
+  margin-bottom:10px ;
+  align-items: stretch;
+  
+}
+.datein,.namein
+{
+padding: 5px ;
+font-size: 15px;
+}
+.btn-add
+{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-delete
+{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
